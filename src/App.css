@@ -1,0 +1,47 @@
+.app {
+  display: flex;
+}
+
+.sidebar {
+  background-color: #2e3b55;
+  color: white;
+  width: 250px;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar li svg {
+  margin-right: 10px;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.weather-highlights {
+  background: #f4f6fa;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.rain-forecast, .forecast {
+  margin-top: 20px;
+}
+
+.day-forecast {
+  background: #f4f6fa;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
